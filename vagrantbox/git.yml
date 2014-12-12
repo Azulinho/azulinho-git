@@ -7,11 +7,6 @@
 
 
   roles:
-    # configure /etc/resolv.conf
-    #
-    #    - Azulinho.azulinho-google-dns
-
-    #- Azulinho.azulinho-yum-repo-rpmforge
-
+    - Azulinho.azulinho-google-dns
     - git
 
