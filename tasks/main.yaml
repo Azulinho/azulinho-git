@@ -4,7 +4,6 @@
 # that repo is disabled by default
 - name: Ensure latest git is installed
   yum: name=git
-    disablerepo=base,updates
     enablerepo=rpmforge-extras
     state=latest
   tags:
